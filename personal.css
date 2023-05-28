@@ -1,0 +1,112 @@
+.btn {
+    background-color: #198754;
+    color: white;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+
+}
+
+.main {
+    background-color: rgba(135, 233, 235, 0.638);
+    height: 80vh;
+}
+
+body {
+    background-color: rgba(245, 245, 220, 0.574);
+
+}
+
+
+.containers {
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 3fr 4fr;
+    padding: 15%;
+    gap: 10%;
+    font-family: cursive;
+}
+
+.greet {
+    font-weight: 900;
+    font-size: 50px;
+    width: 100;
+}
+
+@media (max-width: 1218px){
+    .greet {
+        font-size: 40px;
+        width: 20rem;
+    }
+}
+
+.pic {
+    grid-column-start: 2;
+    grid-column-end: -1;
+}
+
+@media (max-width: 1218px) {
+    .pic {
+        grid-row-start: 2;
+        grid-row-end: -1;
+        grid-column-start: 1;
+        padding-right: 15%;
+        margin-right: 30%;
+    }
+}
+
+.profile {
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 10%;
+    font-weight: 500;
+    padding-bottom: 30%;
+}
+
+.dp {
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+@media (min-width: 1218px){
+    .profile-pic {
+        float: left;
+        gap: 15%;
+        width: 30%;
+    }
+
+    .profile-des {
+        font-size: 2rem;
+        margin: 10%;
+    }
+}
+
+.foot {
+    background-color: rgb(143, 49, 232);
+}
+
+.carousel {
+    border-width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 0;
+
+}
+
+.d-block {
+    height: 40rem;
+    width: 15rem;
+}
+
+
+
+@media (max-width: 1218px){
+
+.carousel-item img{
+    height: 400px;
+    width: 300px;
+}
+}
